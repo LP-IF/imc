@@ -1,0 +1,1204 @@
+{
+  "id": "a2bf0fac-e363-43de-b27b-ba1b0d3ba499",
+  "version": "2.0",
+  "name": "IMC",
+  "url": "http://127.0.0.1:5500",
+  "tests": [{
+    "id": "c442b25e-75ee-4f3e-9585-286ca2572308",
+    "name": "abaixo_masc",
+    "commands": [{
+      "id": "b6c57c19-fc87-4506-83ed-4f3d16a8e762",
+      "comment": "",
+      "command": "open",
+      "target": "/indexIMC.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0df123a6-42f3-4e53-a303-e15f5dbdf532",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1346x708",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ef19192b-2de1-430a-b329-80c8438d3a59",
+      "comment": "",
+      "command": "click",
+      "target": "id=peso",
+      "targets": [
+        ["id=peso", "id"],
+        ["css=#peso", "css:finder"],
+        ["xpath=//input[@id='peso']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "589d2a2d-77a0-447a-98fa-2cc6c5218e56",
+      "comment": "",
+      "command": "type",
+      "target": "id=peso",
+      "targets": [
+        ["id=peso", "id"],
+        ["css=#peso", "css:finder"],
+        ["xpath=//input[@id='peso']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "40"
+    }, {
+      "id": "1295d19b-1122-4cfd-a3ae-f740cf2bd9c1",
+      "comment": "",
+      "command": "click",
+      "target": "id=altura",
+      "targets": [
+        ["id=altura", "id"],
+        ["css=#altura", "css:finder"],
+        ["xpath=//input[@id='altura']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c5111f2c-b91a-4b16-942e-fe399776740a",
+      "comment": "",
+      "command": "type",
+      "target": "id=altura",
+      "targets": [
+        ["id=altura", "id"],
+        ["css=#altura", "css:finder"],
+        ["xpath=//input[@id='altura']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "150"
+    }, {
+      "id": "b5e5b3da-fdd6-450e-841e-ddda276637a7",
+      "comment": "",
+      "command": "click",
+      "target": "css=button",
+      "targets": [
+        ["css=button", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Calcular imc')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "87f59890-055f-4da8-9bb9-b32dab332b43",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=body",
+      "targets": [
+        ["css=body", "css:finder"],
+        ["xpath=//body", "xpath:position"]
+      ],
+      "value": "Peso em kilos\\nAltura em centímetros\\nSexo: \\n                \\nMasculino\\n                Feminino\\n             Calcular imc\\nSeu IMC é 17.8 e vc está com abaixo do peso ideal"
+    }]
+  }, {
+    "id": "643600c2-c1e9-4409-b7a8-abdd3dbb57b4",
+    "name": "ideal_masc",
+    "commands": [{
+      "id": "66c36787-2eb0-45f4-9f46-be3ef747954f",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "496b7847-94c8-4318-ad91-7a56c0581fbe",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1346x708",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9cdea99e-872d-4a6f-a29a-1222968d99d9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.icon-html > .name",
+      "targets": [
+        ["css=.icon-html > .name", "css:finder"],
+        ["xpath=//ul[@id='files']/li[3]/a/span", "xpath:idRelative"],
+        ["xpath=//li[3]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'indexIMC.html')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "76e2e450-d8b2-4798-bf54-fb7f5818daab",
+      "comment": "",
+      "command": "click",
+      "target": "id=peso",
+      "targets": [
+        ["id=peso", "id"],
+        ["css=#peso", "css:finder"],
+        ["xpath=//input[@id='peso']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a06b611f-b457-4678-bd71-67ed9e1fe1c1",
+      "comment": "",
+      "command": "type",
+      "target": "id=peso",
+      "targets": [
+        ["id=peso", "id"],
+        ["css=#peso", "css:finder"],
+        ["xpath=//input[@id='peso']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "64"
+    }, {
+      "id": "f30907cc-0646-4367-b299-a1a9f33a0544",
+      "comment": "",
+      "command": "click",
+      "target": "id=altura",
+      "targets": [
+        ["id=altura", "id"],
+        ["css=#altura", "css:finder"],
+        ["xpath=//input[@id='altura']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "704198c8-31ea-4b82-a893-15a5f7b51c51",
+      "comment": "",
+      "command": "type",
+      "target": "id=altura",
+      "targets": [
+        ["id=altura", "id"],
+        ["css=#altura", "css:finder"],
+        ["xpath=//input[@id='altura']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "170"
+    }, {
+      "id": "b5741a83-86b0-4b3b-963a-265ade27c368",
+      "comment": "",
+      "command": "click",
+      "target": "css=button",
+      "targets": [
+        ["css=button", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Calcular imc')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3f5031f1-81d3-41a4-af4d-8068f9cc8675",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=body",
+      "targets": [
+        ["css=body", "css:finder"],
+        ["xpath=//body", "xpath:position"]
+      ],
+      "value": "Peso em kilos\\nAltura em centímetros\\nSexo: \\n                \\nMasculino\\n                Feminino\\n             Calcular imc\\nSeu IMC é 22.1 e vc está com o peso ideal"
+    }]
+  }, {
+    "id": "d19b44fb-bafa-4dc0-8f0c-58ebaa589aa0",
+    "name": "sobrepeso_masc",
+    "commands": [{
+      "id": "152741cd-b649-4e36-938d-c861b13d9f18",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b3ff28de-0e93-4f30-892f-bb89dd523203",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1346x708",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8568d2ee-21e2-4c35-ae8b-a8949717c41c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.icon-html > .name",
+      "targets": [
+        ["css=.icon-html > .name", "css:finder"],
+        ["xpath=//ul[@id='files']/li[3]/a/span", "xpath:idRelative"],
+        ["xpath=//li[3]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'indexIMC.html')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "109dde20-c16c-4dbd-9504-b0587f8300b0",
+      "comment": "",
+      "command": "click",
+      "target": "id=peso",
+      "targets": [
+        ["id=peso", "id"],
+        ["css=#peso", "css:finder"],
+        ["xpath=//input[@id='peso']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7e558643-61d6-404e-a836-48c4612a0920",
+      "comment": "",
+      "command": "type",
+      "target": "id=peso",
+      "targets": [
+        ["id=peso", "id"],
+        ["css=#peso", "css:finder"],
+        ["xpath=//input[@id='peso']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "65"
+    }, {
+      "id": "f9d1e47b-55ac-485e-86de-31562cd1e590",
+      "comment": "",
+      "command": "click",
+      "target": "id=altura",
+      "targets": [
+        ["id=altura", "id"],
+        ["css=#altura", "css:finder"],
+        ["xpath=//input[@id='altura']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9d0fb178-5c7a-46e8-932c-4198045504fc",
+      "comment": "",
+      "command": "type",
+      "target": "id=altura",
+      "targets": [
+        ["id=altura", "id"],
+        ["css=#altura", "css:finder"],
+        ["xpath=//input[@id='altura']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "150"
+    }, {
+      "id": "10c47448-baac-409f-96d7-bbd165ab7332",
+      "comment": "",
+      "command": "click",
+      "target": "css=button",
+      "targets": [
+        ["css=button", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Calcular imc')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c97cd713-1ec4-4d6f-b3f0-51c37247217e",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=button",
+      "targets": [
+        ["css=button", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Calcular imc')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d426f019-cdb7-4584-91e9-e8fe942a02ba",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=button",
+      "targets": [
+        ["css=button", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Calcular imc')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "94fc8ce7-c515-49eb-8216-3eb573f54c81",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=body > div",
+      "targets": [
+        ["css=body > div", "css:finder"],
+        ["xpath=//div", "xpath:position"]
+      ],
+      "value": "Peso em kilos\\nAltura em centímetros\\nSexo: \\n                \\nMasculino\\n                Feminino\\n             Calcular imc\\nSeu IMC é 28.9 e vc está com sobrepeso"
+    }, {
+      "id": "b00e1c4a-ceae-41c4-9a3d-382edea8dc12",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "f82e3682-7830-416c-a89f-6ca338102d1e",
+    "name": "obeso_masc",
+    "commands": [{
+      "id": "ba7f6618-97d6-4cb3-8ed9-c5ad2d735d09",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "36278b3c-7dcf-42dd-a70f-35fb4c85235a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1346x708",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "40e267cb-6461-41b0-aa56-955da0375be7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.icon-html > .name",
+      "targets": [
+        ["css=.icon-html > .name", "css:finder"],
+        ["xpath=//ul[@id='files']/li[3]/a/span", "xpath:idRelative"],
+        ["xpath=//li[3]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'indexIMC.html')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a3419ef1-7f0d-49d9-b5cc-2833acdcc36b",
+      "comment": "",
+      "command": "click",
+      "target": "id=peso",
+      "targets": [
+        ["id=peso", "id"],
+        ["css=#peso", "css:finder"],
+        ["xpath=//input[@id='peso']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a15ddd1f-8739-4db6-b140-ef58afc8bf9f",
+      "comment": "",
+      "command": "type",
+      "target": "id=peso",
+      "targets": [
+        ["id=peso", "id"],
+        ["css=#peso", "css:finder"],
+        ["xpath=//input[@id='peso']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "85"
+    }, {
+      "id": "abd1dc85-5557-4d8b-b59d-09d507456419",
+      "comment": "",
+      "command": "click",
+      "target": "id=altura",
+      "targets": [
+        ["id=altura", "id"],
+        ["css=#altura", "css:finder"],
+        ["xpath=//input[@id='altura']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9dfc425e-fd6e-491c-9e72-dd3309db9d8f",
+      "comment": "",
+      "command": "type",
+      "target": "id=altura",
+      "targets": [
+        ["id=altura", "id"],
+        ["css=#altura", "css:finder"],
+        ["xpath=//input[@id='altura']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "160"
+    }, {
+      "id": "dd513682-00b6-426e-b0ac-84e44172c648",
+      "comment": "",
+      "command": "click",
+      "target": "css=button",
+      "targets": [
+        ["css=button", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Calcular imc')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ae830f20-e139-4ccb-8f21-1c9017d4e2fc",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=result",
+      "targets": [
+        ["id=result", "id"],
+        ["css=#result", "css:finder"],
+        ["xpath=//div[@id='result']", "xpath:attributes"],
+        ["xpath=//div/div", "xpath:position"]
+      ],
+      "value": "Seu IMC é 33.2 e vc está obeso"
+    }, {
+      "id": "e403295f-e088-4c15-97b5-887b8e1e1a1e",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "53cc393a-e7bb-4184-804d-e86043556c9d",
+    "name": "ideal_fem",
+    "commands": [{
+      "id": "4a028c00-e32f-4ed0-a23f-9ef3a2f800c0",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ba642cd0-316a-4950-bbb3-1e463d909c39",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1346x708",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e437b73b-6184-425f-982b-58cdf9a75776",
+      "comment": "",
+      "command": "click",
+      "target": "css=.name",
+      "targets": [
+        ["css=.name", "css:finder"],
+        ["xpath=//ul[@id='files']/li/a/span", "xpath:idRelative"],
+        ["xpath=//span", "xpath:position"],
+        ["xpath=//span[contains(.,'indexIMC.html')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d4f638e2-fd40-43fd-8249-52b5af4bbe3b",
+      "comment": "",
+      "command": "click",
+      "target": "id=peso",
+      "targets": [
+        ["id=peso", "id"],
+        ["css=#peso", "css:finder"],
+        ["xpath=//input[@id='peso']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "57810008-b8ac-4dc8-84f9-8e626e512cbd",
+      "comment": "",
+      "command": "type",
+      "target": "id=peso",
+      "targets": [
+        ["id=peso", "id"],
+        ["css=#peso", "css:finder"],
+        ["xpath=//input[@id='peso']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "50"
+    }, {
+      "id": "0db89586-414b-494f-9dcc-f379f6775161",
+      "comment": "",
+      "command": "click",
+      "target": "id=altura",
+      "targets": [
+        ["id=altura", "id"],
+        ["css=#altura", "css:finder"],
+        ["xpath=//input[@id='altura']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2cfdbe6b-d8a6-4f7c-b166-dfce04790f1a",
+      "comment": "",
+      "command": "type",
+      "target": "id=altura",
+      "targets": [
+        ["id=altura", "id"],
+        ["css=#altura", "css:finder"],
+        ["xpath=//input[@id='altura']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "150"
+    }, {
+      "id": "3cbd49a7-d5af-4628-a56e-d1474f9241a5",
+      "comment": "",
+      "command": "click",
+      "target": "id=sexo",
+      "targets": [
+        ["id=sexo", "id"],
+        ["css=#sexo", "css:finder"],
+        ["xpath=//select[@id='sexo']", "xpath:attributes"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "096ce218-9114-4a7f-9bcb-e68394a8e510",
+      "comment": "",
+      "command": "select",
+      "target": "id=sexo",
+      "targets": [],
+      "value": "label=Feminino"
+    }, {
+      "id": "0843e26d-33a0-45d8-9d42-4005f5224a34",
+      "comment": "",
+      "command": "click",
+      "target": "css=button",
+      "targets": [
+        ["css=button", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Calcular imc')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5083dd2f-3752-4679-9915-6146f4676286",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=form > div:nth-child(2)",
+      "targets": [
+        ["css=form > div:nth-child(2)", "css:finder"],
+        ["xpath=//div[2]", "xpath:position"]
+      ],
+      "value": "Altura em centímetros"
+    }, {
+      "id": "5170c2c1-8399-4186-985c-50977f2f34fe",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "f1ff37a5-4e90-43f4-a8d1-1684da6002d0",
+    "name": "abaixo_fem",
+    "commands": [{
+      "id": "8fbb66b9-f979-4fe3-81b9-047a6d2def7f",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6fb1e968-8c9b-4765-8935-7f602af4d630",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1346x708",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c72a2e33-4258-41fa-85ac-f45bdd6d5655",
+      "comment": "",
+      "command": "click",
+      "target": "css=.name",
+      "targets": [
+        ["css=.name", "css:finder"],
+        ["xpath=//ul[@id='files']/li/a/span", "xpath:idRelative"],
+        ["xpath=//span", "xpath:position"],
+        ["xpath=//span[contains(.,'indexIMC.html')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c3524f5f-7356-4629-8079-76ef63ed6221",
+      "comment": "",
+      "command": "click",
+      "target": "id=peso",
+      "targets": [
+        ["id=peso", "id"],
+        ["css=#peso", "css:finder"],
+        ["xpath=//input[@id='peso']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2110afa0-41a4-4969-9ae1-080984dc9428",
+      "comment": "",
+      "command": "type",
+      "target": "id=peso",
+      "targets": [
+        ["id=peso", "id"],
+        ["css=#peso", "css:finder"],
+        ["xpath=//input[@id='peso']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "41"
+    }, {
+      "id": "dbf9f9c7-c3fb-4227-b213-484069c926bc",
+      "comment": "",
+      "command": "click",
+      "target": "css=form > div:nth-child(2)",
+      "targets": [
+        ["css=form > div:nth-child(2)", "css:finder"],
+        ["xpath=//div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a1d8ff3a-e224-4e13-aace-bcdff26ad09d",
+      "comment": "",
+      "command": "click",
+      "target": "id=altura",
+      "targets": [
+        ["id=altura", "id"],
+        ["css=#altura", "css:finder"],
+        ["xpath=//input[@id='altura']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b9f8de5c-4cc8-46f0-9b76-9fc685a3aca5",
+      "comment": "",
+      "command": "type",
+      "target": "id=altura",
+      "targets": [
+        ["id=altura", "id"],
+        ["css=#altura", "css:finder"],
+        ["xpath=//input[@id='altura']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "155"
+    }, {
+      "id": "774c4e6f-07fc-41a6-9fdc-028f1c323ec0",
+      "comment": "",
+      "command": "click",
+      "target": "id=sexo",
+      "targets": [
+        ["id=sexo", "id"],
+        ["css=#sexo", "css:finder"],
+        ["xpath=//select[@id='sexo']", "xpath:attributes"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "da2d51c1-2dff-4d5b-90c6-029c16c3c9dd",
+      "comment": "",
+      "command": "select",
+      "target": "id=sexo",
+      "targets": [],
+      "value": "label=Feminino"
+    }, {
+      "id": "f67a5f89-8b90-44b0-b974-9ab195f6089d",
+      "comment": "",
+      "command": "click",
+      "target": "css=button",
+      "targets": [
+        ["css=button", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Calcular imc')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3a04ea54-cbe9-4d3f-9989-46dc4b99ea3c",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=form > div:nth-child(2)",
+      "targets": [
+        ["css=form > div:nth-child(2)", "css:finder"],
+        ["xpath=//div[2]", "xpath:position"]
+      ],
+      "value": "Altura em centímetros"
+    }, {
+      "id": "46a70a1b-6ebb-4b5b-89d4-f80d2813cea5",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "c63ccfba-2875-48fe-8737-86ed85db98b2",
+    "name": "sobrepeso_fem",
+    "commands": [{
+      "id": "8ab2e432-d66b-46a1-8059-e1d4dc0ced97",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c116f34c-6db7-4b6f-ac14-2ab770867d1a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1346x708",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "93b8833a-74c2-4c7d-84bc-f9740290e3ec",
+      "comment": "",
+      "command": "click",
+      "target": "css=.name",
+      "targets": [
+        ["css=.name", "css:finder"],
+        ["xpath=//ul[@id='files']/li/a/span", "xpath:idRelative"],
+        ["xpath=//span", "xpath:position"],
+        ["xpath=//span[contains(.,'indexIMC.html')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f43422a5-da3d-4a07-a72d-772defe99739",
+      "comment": "",
+      "command": "click",
+      "target": "id=peso",
+      "targets": [
+        ["id=peso", "id"],
+        ["css=#peso", "css:finder"],
+        ["xpath=//input[@id='peso']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2c42ee58-7bba-4998-a768-24a0afa0d187",
+      "comment": "",
+      "command": "type",
+      "target": "id=peso",
+      "targets": [
+        ["id=peso", "id"],
+        ["css=#peso", "css:finder"],
+        ["xpath=//input[@id='peso']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "60"
+    }, {
+      "id": "7976295d-2f77-4d3a-9a7a-fa478cc162ec",
+      "comment": "",
+      "command": "click",
+      "target": "id=altura",
+      "targets": [
+        ["id=altura", "id"],
+        ["css=#altura", "css:finder"],
+        ["xpath=//input[@id='altura']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "75d5efda-97b3-4bba-9252-2581818b9c3f",
+      "comment": "",
+      "command": "type",
+      "target": "id=altura",
+      "targets": [
+        ["id=altura", "id"],
+        ["css=#altura", "css:finder"],
+        ["xpath=//input[@id='altura']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "150"
+    }, {
+      "id": "d70f1c73-3ce2-4086-99e5-14c2a5d664f7",
+      "comment": "",
+      "command": "click",
+      "target": "id=sexo",
+      "targets": [
+        ["id=sexo", "id"],
+        ["css=#sexo", "css:finder"],
+        ["xpath=//select[@id='sexo']", "xpath:attributes"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c532cd02-76b5-4f76-9659-2c4e9b97b931",
+      "comment": "",
+      "command": "select",
+      "target": "id=sexo",
+      "targets": [],
+      "value": "label=Feminino"
+    }, {
+      "id": "35a4df9d-ba86-4777-bc56-6648de82952d",
+      "comment": "",
+      "command": "click",
+      "target": "css=button",
+      "targets": [
+        ["css=button", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Calcular imc')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9bf63624-f87d-4c2d-9971-71727a239670",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=div:nth-child(1) > p",
+      "targets": [
+        ["css=div:nth-child(1) > p", "css:finder"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'Peso em kilos')]", "xpath:innerText"]
+      ],
+      "value": "Peso em kilos"
+    }, {
+      "id": "52a70a9e-662d-4c5a-92b6-c658d48ef686",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "b8a43838-2368-443e-84e3-badf928d0865",
+    "name": "obeso_fem",
+    "commands": [{
+      "id": "c3646e1d-b344-40d5-ad5f-3e7e660f28db",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "aea2a1e5-088d-4a8d-b92b-54eddcf678bc",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1346x708",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e6b6689d-85fc-4970-9305-ef257e03ae87",
+      "comment": "",
+      "command": "click",
+      "target": "css=.name",
+      "targets": [
+        ["css=.name", "css:finder"],
+        ["xpath=//ul[@id='files']/li/a/span", "xpath:idRelative"],
+        ["xpath=//span", "xpath:position"],
+        ["xpath=//span[contains(.,'indexIMC.html')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8dd73322-3283-4279-ad00-7210eb8f8c45",
+      "comment": "",
+      "command": "click",
+      "target": "id=peso",
+      "targets": [
+        ["id=peso", "id"],
+        ["css=#peso", "css:finder"],
+        ["xpath=//input[@id='peso']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5de2200e-8d67-4ece-9f59-e078224122a5",
+      "comment": "",
+      "command": "type",
+      "target": "id=peso",
+      "targets": [
+        ["id=peso", "id"],
+        ["css=#peso", "css:finder"],
+        ["xpath=//input[@id='peso']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "90"
+    }, {
+      "id": "7eb60745-f347-417f-9e4f-f800ba58c45b",
+      "comment": "",
+      "command": "click",
+      "target": "id=altura",
+      "targets": [
+        ["id=altura", "id"],
+        ["css=#altura", "css:finder"],
+        ["xpath=//input[@id='altura']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "956b3d38-a32f-4505-86db-1f430195a137",
+      "comment": "",
+      "command": "type",
+      "target": "id=altura",
+      "targets": [
+        ["id=altura", "id"],
+        ["css=#altura", "css:finder"],
+        ["xpath=//input[@id='altura']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "170"
+    }, {
+      "id": "9e8b6d2b-f2aa-4b73-9d80-16e92beef7cf",
+      "comment": "",
+      "command": "click",
+      "target": "id=sexo",
+      "targets": [
+        ["id=sexo", "id"],
+        ["css=#sexo", "css:finder"],
+        ["xpath=//select[@id='sexo']", "xpath:attributes"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "896e7a7f-d16a-4bca-99b8-dfd931c00bd4",
+      "comment": "",
+      "command": "select",
+      "target": "id=sexo",
+      "targets": [],
+      "value": "label=Feminino"
+    }, {
+      "id": "be9cad7c-7a2e-40cd-9f47-e047b1fd99d3",
+      "comment": "",
+      "command": "click",
+      "target": "css=button",
+      "targets": [
+        ["css=button", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Calcular imc')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d9425a2f-80d4-4082-b063-aee4c90d3bff",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=form",
+      "targets": [
+        ["css=form", "css:finder"],
+        ["xpath=//form", "xpath:position"]
+      ],
+      "value": "Peso em kilos\\nAltura em centímetros\\nSexo: \\n                \\nMasculino\\n                Feminino\\n             Calcular imc"
+    }, {
+      "id": "cecf7b3d-80e9-478d-ba2d-06157450b210",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "b2927ca1-04b0-47e6-a14c-18bf2bb35444",
+    "name": "nulo_fem",
+    "commands": [{
+      "id": "79637e62-28cd-4cb5-bd5d-cca7574e5dba",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "59f0814d-5a15-4e21-a119-7fc12f8372ea",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1346x708",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6ed01a6e-fc4d-411e-bd3a-3ee07d92ae6a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.name",
+      "targets": [
+        ["css=.name", "css:finder"],
+        ["xpath=//ul[@id='files']/li/a/span", "xpath:idRelative"],
+        ["xpath=//span", "xpath:position"],
+        ["xpath=//span[contains(.,'indexIMC.html')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bc130ed3-efa2-4d4e-ae19-cd119f52badd",
+      "comment": "",
+      "command": "click",
+      "target": "id=peso",
+      "targets": [
+        ["id=peso", "id"],
+        ["css=#peso", "css:finder"],
+        ["xpath=//input[@id='peso']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "958076d1-1959-4124-a350-3bdcbf61741a",
+      "comment": "",
+      "command": "type",
+      "target": "id=peso",
+      "targets": [
+        ["id=peso", "id"],
+        ["css=#peso", "css:finder"],
+        ["xpath=//input[@id='peso']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "0"
+    }, {
+      "id": "b740349b-cdda-4517-b179-f2d4aea5da01",
+      "comment": "",
+      "command": "click",
+      "target": "id=altura",
+      "targets": [
+        ["id=altura", "id"],
+        ["css=#altura", "css:finder"],
+        ["xpath=//input[@id='altura']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f2cdb960-3e11-4032-9cd8-e4473d9bafcf",
+      "comment": "",
+      "command": "type",
+      "target": "id=altura",
+      "targets": [
+        ["id=altura", "id"],
+        ["css=#altura", "css:finder"],
+        ["xpath=//input[@id='altura']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "0"
+    }, {
+      "id": "ac16eb99-d878-4499-81b1-109c2622801b",
+      "comment": "",
+      "command": "click",
+      "target": "id=sexo",
+      "targets": [
+        ["id=sexo", "id"],
+        ["css=#sexo", "css:finder"],
+        ["xpath=//select[@id='sexo']", "xpath:attributes"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cc079b6a-d021-4938-a6f9-f33fbedec154",
+      "comment": "",
+      "command": "select",
+      "target": "id=sexo",
+      "targets": [],
+      "value": "label=Feminino"
+    }, {
+      "id": "eb0fc74a-3654-49ea-b843-261523308d7f",
+      "comment": "",
+      "command": "click",
+      "target": "css=button",
+      "targets": [
+        ["css=button", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Calcular imc')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "77ab4916-1e25-4b2d-b97a-a39ff49070b5",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=form",
+      "targets": [
+        ["css=form", "css:finder"],
+        ["xpath=//form", "xpath:position"]
+      ],
+      "value": "Peso em kilos\\nAltura em centímetros\\nSexo: \\n                \\nMasculino\\n                Feminino\\n             Calcular imc"
+    }, {
+      "id": "8c5ecd7f-49ba-438f-894f-9ce9d4f5d736",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "c0dbebfd-ff07-4938-b186-76d12973c868",
+    "name": "nulo_masc",
+    "commands": [{
+      "id": "4b03e77e-3ace-483f-b910-ab292ea37928",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9a39834f-e349-46a6-b530-2ba9c5e5732c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1346x708",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d8e3c5b7-4a31-40a7-afc6-53083a8e37ef",
+      "comment": "",
+      "command": "click",
+      "target": "css=.name",
+      "targets": [
+        ["css=.name", "css:finder"],
+        ["xpath=//ul[@id='files']/li/a/span", "xpath:idRelative"],
+        ["xpath=//span", "xpath:position"],
+        ["xpath=//span[contains(.,'indexIMC.html')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "161966d3-3aef-4bc7-98a9-8b1f27812e2b",
+      "comment": "",
+      "command": "click",
+      "target": "id=peso",
+      "targets": [
+        ["id=peso", "id"],
+        ["css=#peso", "css:finder"],
+        ["xpath=//input[@id='peso']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "07a7b153-8d08-4d94-ab66-9f4827952c44",
+      "comment": "",
+      "command": "type",
+      "target": "id=peso",
+      "targets": [
+        ["id=peso", "id"],
+        ["css=#peso", "css:finder"],
+        ["xpath=//input[@id='peso']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "0"
+    }, {
+      "id": "70298642-90cc-490d-87d8-fcaea562a712",
+      "comment": "",
+      "command": "click",
+      "target": "css=form > div:nth-child(2)",
+      "targets": [
+        ["css=form > div:nth-child(2)", "css:finder"],
+        ["xpath=//div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d3dca0d0-19f6-4a40-bf1c-178bfb95ee99",
+      "comment": "",
+      "command": "click",
+      "target": "id=altura",
+      "targets": [
+        ["id=altura", "id"],
+        ["css=#altura", "css:finder"],
+        ["xpath=//input[@id='altura']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "10ac2430-5557-4784-9e66-2031c56e2b7b",
+      "comment": "",
+      "command": "type",
+      "target": "id=altura",
+      "targets": [
+        ["id=altura", "id"],
+        ["css=#altura", "css:finder"],
+        ["xpath=//input[@id='altura']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "0"
+    }, {
+      "id": "9460857f-e1f4-4b23-aa26-59a258cca94d",
+      "comment": "",
+      "command": "click",
+      "target": "css=button",
+      "targets": [
+        ["css=button", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Calcular imc')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8543008b-f724-4217-9efb-4015a3195a59",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=div:nth-child(2) > p",
+      "targets": [
+        ["css=div:nth-child(2) > p", "css:finder"],
+        ["xpath=//div[2]/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Altura em centímetros')]", "xpath:innerText"]
+      ],
+      "value": "Altura em centímetros"
+    }, {
+      "id": "01b9d0a6-95e3-4b7c-b05c-0c9e344d28d1",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "3047bb04-74c7-4b8f-b57b-0454fe671505",
+    "name": "IMC",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["f1ff37a5-4e90-43f4-a8d1-1684da6002d0", "c442b25e-75ee-4f3e-9585-286ca2572308", "53cc393a-e7bb-4184-804d-e86043556c9d", "643600c2-c1e9-4409-b7a8-abdd3dbb57b4", "b2927ca1-04b0-47e6-a14c-18bf2bb35444", "b8a43838-2368-443e-84e3-badf928d0865", "f82e3682-7830-416c-a89f-6ca338102d1e", "c63ccfba-2875-48fe-8737-86ed85db98b2", "d19b44fb-bafa-4dc0-8f0c-58ebaa589aa0", "c0dbebfd-ff07-4938-b186-76d12973c868"]
+  }],
+  "urls": ["http://127.0.0.1:5500/"],
+  "plugins": []
+}

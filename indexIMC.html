@@ -1,0 +1,73 @@
+<html>
+<head>
+	<title>Calculadora IMC</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<body>
+    	<div> 		
+    			<form>
+    				<div>
+    					<p>Peso em kilos</p>
+    		     		<input id="peso" type="number"/>
+    				</div>
+    				<div>
+    					<p>Altura em centímetros</p>
+	    				 <input id="altura" type="number"/> 
+    				</div>
+            <div>
+              <label for="sexo">Sexo: </label><select id="sexo">
+                <option value="m">Masculino</option>
+                <option value="f">Feminino</option>
+            </select>
+            </div>
+    		     <div>
+              <button type="button" onclick="calcular()">Calcular imc</button>
+             </div>
+    		</form>
+    		<div id="result">Seu resultado irá aparecer aqui</div>
+    	</div>
+	<script>
+
+  let peso, altura, sexo, resultado, imc, erro ;
+
+function calcular() {
+	peso = document.getElementById("peso").value;
+	altura = document.getElementById("altura").value;
+  sexo = document.getElementById("sexo").value;
+	erro = "Valores inválidos ou incorretos";
+	altura /= 100;
+	altura *= altura;
+	imc = peso/altura;
+	imc = imc.toFixed(1);
+
+	if(sexo === 'm'){
+    if (imc <= 20) {
+		resultado = "Seu IMC é " + imc + " e vc está com abaixo do peso ideal";
+	} else if (imc >= 20.1 && imc <= 24.9) {
+		resultado = "Seu IMC é " + imc + " e vc está com o peso ideal";
+	} else if (imc >= 25 && imc <= 29.9) {
+		resultado = "Seu IMC é " + imc + " e vc está com sobrepeso";
+	} else if (imc >= 30) {
+		resultado = "Seu IMC é " + imc + " e vc está obeso";
+	}
+  }else {
+    if (imc <= 18) {
+		resultado = "Seu IMC é " + imc + " e vc está com abaixo do peso ideal";
+	} else if (imc >= 18.1 && imc <= 22.9) {
+		resultado = "Seu IMC é " + imc + " e vc está com o peso ideal";
+	} else if (imc >= 23 && imc <= 27.9) {
+		resultado = "Seu IMC é " + imc + " e vc está com sobrepeso";
+	} else if (imc >= 28) {
+		resultado = "Seu IMC é " + imc + " e vc está obeso";
+	}
+  }
+	
+
+	if ((peso === 0 || peso < 0) || (altura === 0 || altura === 0)) {
+		document.getElementById("result").innerHTML = erro;
+  } else {
+		document.getElementById("result").innerHTML = resultado;
+	}
+}
+  </script>
+</body>
+</html>
